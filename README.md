@@ -42,9 +42,19 @@ Các hồ sơ hiện mô tả đề tài đã thực hiện. Mã nguồn, ảnh,
 
 ## Website portfolio
 
-Website tĩnh nằm ở `index.html` và `styles.css`, không cần cài thư viện hay build. Mở `index.html` để xem trên máy.
+Website: **[Portfolio Nguyễn Trung Đức](https://tduciot1901.github.io/MyPortfolio-CV/)**.
 
-Để xuất bản bằng GitHub Pages: vào **Settings → Pages → Build and deployment**, chọn **Deploy from a branch**, chọn nhánh **main** và thư mục **/(root)**, rồi **Save**. Đường dẫn dự kiến sau khi triển khai thành công: `https://tduciot1901.github.io/MyPortfolio-CV/`.
+Thanh điều hướng bên trái mở từng trang độc lập, có đánh dấu trang đang xem:
+
+- [Giới thiệu](https://tduciot1901.github.io/MyPortfolio-CV/index.html) — `index.html`.
+- [Học vấn](https://tduciot1901.github.io/MyPortfolio-CV/education.html) — `education.html`.
+- [Dự án](https://tduciot1901.github.io/MyPortfolio-CV/projects.html) — `projects.html`.
+- [Kỹ năng](https://tduciot1901.github.io/MyPortfolio-CV/skills.html) — `skills.html`.
+- [Kết nối](https://tduciot1901.github.io/MyPortfolio-CV/contact.html) — `contact.html`.
+
+Trên điện thoại, các nút điều hướng nằm đầu trang. Các trang dùng chung `styles.css`, không cần JavaScript, cài thư viện hoặc build. Liên kết dùng đường dẫn tương đối để hoạt động trên GitHub Pages trong thư mục `/MyPortfolio-CV/`; tải lại hoặc mở trực tiếp từng URL vẫn hoạt động.
+
+GitHub Pages dùng **Deploy from a branch → main → /(root)**. Chỉnh trang tương ứng, giữ các tệp HTML và CSS cùng thư mục; thay đổi trên `main` sẽ được GitHub Pages triển khai lại.
 
 ## Bổ sung hồ sơ dự án
 
